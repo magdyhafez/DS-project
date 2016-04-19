@@ -1,0 +1,70 @@
+﻿Build started 4/19/2016 11:37:08 AM.
+     1>Project "C:\Users\Dell\Documents\Visual Studio 2012\Bank\Bank\Bank.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5): error C2011: 'Account' : 'class' type redefinition
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(37): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(39): error C2065: 'name' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(42): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(44): error C2065: 'ID' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(46): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(48): error C2065: 'balance' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(50): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(52): error C2065: 'name' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(55): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(57): error C2065: 'ID' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(60): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\account.h(62): error C2065: 'balance' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(44): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(44): error C2227: left of '->getID' must point to class/struct/union/generic type
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(44): error C2227: left of '->getBalance' must point to class/struct/union/generic type
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(44): error C2227: left of '->getName' must point to class/struct/union/generic type
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(56): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(56): error C2227: left of '->getID' must point to class/struct/union/generic type
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(56): error C2227: left of '->getBalance' must point to class/struct/union/generic type
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(56): error C2227: left of '->getName' must point to class/struct/union/generic type
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(78): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(82): error C2079: 'value' uses undefined class 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(83): error C2228: left of '.setBalance' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(83): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(83): error C2228: left of '.getBalance' must have class/struct/union
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(84): error C2228: left of '.setName' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(84): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(84): error C2228: left of '.getName' must have class/struct/union
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(85): error C2228: left of '.setID' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(85): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(85): error C2228: left of '.getID' must have class/struct/union
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(94): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(95): error C2079: 'value' uses undefined class 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(97): error C2027: use of undefined type 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+                 c:\users\dell\documents\visual studio 2012\bank\bank\account.h(5) : see declaration of 'Account'
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(97): error C2227: left of '->{dtor}' must point to class/struct/union/generic type
+     1>c:\users\dell\documents\visual studio 2012\bank\bank\linkedlist.h(97): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\Dell\Documents\Visual Studio 2012\Bank\Bank\Bank.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.39

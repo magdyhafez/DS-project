@@ -1,1 +1,1 @@
-Magdy & Ismail
+Magdy
